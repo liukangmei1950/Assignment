@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/开封府.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+
+<body>
+    <!-- 轮播图 -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/视觉中国/开封铁塔/VCG211189536168.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/视觉中国/开封铁塔/VCG211345790543.jpg">
+            </div>">
+        </div>
+        <div class="carousel-item">
+            <img src="img/视觉中国//开封铁塔/VCG211376044536.jpg">
+        </div>
+    </div>
+
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+    </div>
+    <!-- 折叠 -->
+    <div class="container mt-5">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        简介
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        <b>
+                            <p>铁塔位于河南省开封市北门大街铁塔公园的东半部，是园内重要的文物，也是主要的景点，始建于公元1049年（北宋皇祐元年），是1961年中国首批公布的国家重点保护文物之一，素有“天下第一塔”之称。
+                                铁塔高55.88米，八角十三层，因此地曾为开宝寺，又称“开宝寺塔”，又因遍体通彻褐色琉璃砖，混似铁铸，从元代起民间称其为“铁塔”
+                                ，在900多年中，历经了37次地震，18次大风，15次水患，而巍然屹立。</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    <div class="card-header">
+                        历史沿革
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <b>
+                        <p>据史料记载，开封铁塔的前身是座木塔，位于开宝寺福胜院内，始建于太平兴国七年，也说是公元982年，建成于宋太宗端拱二年，谓之福胜塔，宋真宗大中祥符六年，“有金光出相轮，车驾临幸，舍利乃见，因赐名灵感塔”，是宋太宗用来供奉吴越国进贡的阿育王佛舍利用的。
+                        </p>
+                        <p>铁塔的建造开始于北宋仁宗皇佑元年（1049年），但何时落成，至今尚未发现有确切记载。这是铁塔历史上的一大悬案。据河南大学教授魏千志考证，神宗熙宁四年（1071年）王瓘撰写一部《北道刊误志》，此书对京师（开封）名胜，记载颇丰，而唯独缄口不言开宝寺塔。
+                        </p>
+                        <p>北宋神宗熙宁五年（1072年）十月，日本国僧侣成寻曾在开宝寺福胜院等处参观礼拜，其记述当时的情景说，原藏在灵感木塔下的佛舍利，现“宿置”于“一间小殿”中。建塔的目的就是奉藏舍利，舍利置于“小殿”中。说明新塔尚未建成。又据魏千志教授躬身登临铁塔考查，塔身的第三层砖上出现治平四年（1067年，英宗在位的最后一年）的年号，塔顶发现“熙宁”（神宗第一个年号）字样的琉璃砖。再参照日僧成寻《参天台五台山记》的有关记载，这就说明，铁塔最后的落成时间，大概在神宗熙宁年间的后期，亦即1073年至1077年之间。
+                        </p>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    地理环境
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <b>
+                        <p>开封铁塔地处中原腹地，豫东大平原、黄河下游大冲积扇南翼 ，属暖温带大陆性季风气候，四季分明，光照充足，气候温和，雨量适中。</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    历史研究
+
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <h3>建造技术</h3>
+                    <b>
+                        <p>铁塔有技术含量很高的科学技术价值。在建塔选材上就吸取了其前身木塔雷击烧毁的教训，而采用了绝缘的、不导电的琉璃瓷砖，避免了大雨雷击的可能性。瓷砖另一个特点是应压强度高，坚固牢靠，在塔门的设计上也是独具匠心，不用发券的半圆门，而采用上尖下方的圭形门，用五层云纹砖逐层收压，其外观象佛龛，而更为坚固。
+                        </p>
+                    </b>
+                    <h3>建筑艺术</h3>
+                    <b>
+                        <p>从建筑艺术上讲，铁塔可称上是一座非常完美的巨型艺术品，远望，铁色琉璃瓦遍饰全身，色调具有铁打铜铸的深厚气质，而且整座塔身上下收分比例协调自然，视觉差比例匀称美观，气势惊人。而走近细看，遍身装饰都是琉璃浮雕艺术品，每块砖都是做工精细、栩栩如生，非常完美的琉璃艺术品。
+                        </p>
+                    </b>
+                    <h3>研究价值</h3>
+                    <b>
+                        <p>开封铁塔是宋都开封最具代表性的文物，是文物价值最高、份量最重的宝物。</p>
+                    </b>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 模态框 -->
+    <h2 class=" mt-5"><i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>你的评价</h2>
+    <!-- 按钮触发模态框 -->
+    <button class="btn btn-primary btn-lg button btn btn-primary mt-5 button-pill button-longshadow-right button-plain"
+        data-toggle="modal" data-target="#myModal">
+        开始评分
+    </button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title " id="myModalLabel">
+                        您的印象分
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-warning active">
+                            <input type="radio" name="score" checked autocomplete="off"> 1分
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="score" autocomplete="off"> 2分
+                        </label>
+                        <label class="btn btn-info active">
+                            <input type="radio" name="score" autocomplete="off"> 3分
+                        </label>
+                        <label class="btn btn-light">
+                            <input type="radio" name="score" autocomplete="off"> 4分
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="score" autocomplete="off"> 5分
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </button>
+                    <button type="button" id="butto" class="btn btn-primary" data-dismiss="modal">
+                        提交更改
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#butto").click(function () {
+            alert("感谢你的评价")
+            $(".modal-body").alert("close")
+        })
+    })
+</script>
+
+</html>

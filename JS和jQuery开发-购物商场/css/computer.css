@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    /*子元素设为灵活的盒子容器*/
+    justify-content: center;
+    /* 在弹性盒对象的 <div> 元素中的各项周围留有空白 */
+    align-items: center;
+    /* 居中对齐弹性盒的各项 <div> 元素： */
+    height: 100vh;
+    /* 视窗高度，1vh=视窗高度的1% 。 */
+    /* background-color: rgb(243, 230, 241); */
+}
+
+.shell {
+    width: 70%;
+    height: 425px;
+    display: flex;
+    margin-top: 130px;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transform: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 10px solid #fff;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.box>img {
+    width: 200%;
+    height: 85%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+.box>span {
+    display: inline-block;
+    width: 100px;
+    font: 200 25px '优设标题黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box:nth-child(5) span {
+    display: inline-block;
+    width: 50px;
+    font: 200 25px '优设标题黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box:hover {
+    transition: all 1.5s;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.box2 {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+.box p {
+    font-size: 30px;
+    font-weight: 800;
+    color: antiquewhite;
+    margin-bottom: 20px;
+
+}
+
+.box h1 {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    right: -14px;
+    word-wrap: break-word;
+    display: none;
+}
+
+.jieshao {
+    width: 900px;
+    height: 1000px;
+    position: absolute;
+    top: 2200px;
+    left: 400px;
+
+}
+
+.jieshao ul {
+    position: relative;
+}
+
+
+
+.jieshao div img {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.jieshao .j1 {
+
+    width: 320px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: rgb(219, 210, 210, 0.7);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.jieshao .j1:hover {
+
+    width: 800px;
+    transition: all 1.5s;
+}
+
+.j1 .image {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.j1 .text {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.jieshao .j2 {
+
+    width: 320px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: rgb(219, 210, 210, 0.7);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.jieshao .j2:hover {
+
+    width: 800px;
+    transition: all 1.5s;
+}
+
+.j2 .image {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.j2 .text {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.jieshao .j3 {
+
+    width: 320px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: rgb(219, 210, 210, 0.7);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.jieshao .j3:hover {
+
+    width: 800px;
+    transition: all 1.5s;
+}
+
+.j3 .image {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.j3 .text {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.jieshao .j4 {
+
+    width: 320px;
+    height: 270px;
+    border-radius: 25px;
+    background-color: rgb(219, 210, 210, 0.7);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.jieshao .j4:hover {
+
+    width: 800px;
+    transition: all 1.5s;
+}
+
+.j4 .image {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.j4 .text {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.jieshao2 {
+    position: absolute;
+    top: 3450px;
+    left: 300px;
+}
+
+.jieshao2 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 0.5;
+}

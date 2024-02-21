@@ -1,0 +1,302 @@
+* {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.body {
+    width: 750px;
+    height: 500px;
+}
+
+.shell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.box {
+    /* 内置矩形inset（上右下左的边距round上右下左圆角） */
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 520px 520px);
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.img {
+    position: relative;
+    width: 80%;
+    transform: translateY(60px);
+    transition: transform .3s;
+    margin-left: 10px;
+}
+
+.img:nth-child(1) {
+
+    margin-left: 20px;
+}
+
+#img4 {
+    margin-left: -15px;
+}
+
+#img2 {
+    margin-left: 15px;
+}
+
+.box:hover .img {
+    transform: translateY(26px) scale(1.2);
+}
+
+.box:hover .circle {
+    transform: rotate(20deg);
+}
+
+.wire {
+    background-color: rgb(200, 115, 123);
+    height: 2px;
+    width: 80px;
+    margin: 20px 0 20px 0;
+}
+
+.name {
+    color: #404245;
+    font-size: 6px;
+    font-weight: 600;
+}
+
+.store {
+    color: #6e6e6e;
+    font: 4px 'arial';
+    /* 斜体 */
+    font-style: italic;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.text p {
+    text-indent: 2em;
+    line-height: 25px;
+}
+
+.jieshao {
+    width: 1300px;
+    height: 1000px;
+    position: absolute;
+    top: 2200px;
+    left: 100px;
+
+}
+
+.title {
+    width: 250px;
+    height: 50px;
+    border-bottom: 5px solid black;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-family: heiti;
+    font-weight: 500;
+
+}
+
+.box1 {
+    width: 700px;
+    height: 350px;
+
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    overflow: hidden;
+    background-image: url(../images/S1.jpg);
+    background-size: 102%;
+    transition: all 1s;
+    position: relative;
+}
+
+.box1 .text1 {
+    width: 700px;
+
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.box1 .text1 p {
+    margin-left: 5px;
+
+}
+
+.box1 .text1 .ljgd1 {
+    display: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.box1 .text1 #jt {
+    color: red;
+
+}
+
+.box1:hover {
+    background-size: 110%;
+    transition: all 1s;
+}
+
+.box2 {
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+    overflow: hidden;
+    background-image: url(../images/S2.jpg);
+    background-size: 112%;
+    transition: all 1s;
+    position: relative;
+}
+
+.box2 .text2 {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box2 .text2 p {
+    margin-left: 5px;
+
+}
+
+.box2 .text2 .ljgd2 {
+    display: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.box2 .text2 #jt {
+    color: red;
+
+}
+
+.box2:hover {
+    background-size: 120%;
+    transition: all 1s;
+}
+
+.box3 {
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    overflow: hidden;
+    background-image: url(../images/S3.jpg);
+    background-size: 112%;
+    transition: all 1s;
+    position: relative;
+}
+
+.box3 .text3 {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box3 .text3 p {
+    margin-left: 5px;
+
+}
+
+.box3 .text3 .ljgd3 {
+    display: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.box3 .text3 #jt {
+    color: red;
+
+}
+
+.box3:hover {
+    background-size: 120%;
+    transition: all 1s;
+}
+
+.box4 {
+    width: 700px;
+    height: 350px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-image: url(../images/S4.jpg);
+    background-size: 102%;
+    transition: all 1s;
+    position: relative;
+}
+
+.box4 .text4 {
+    width: 700px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box4 .text4 p {
+    margin-left: 5px;
+
+}
+
+.box4 .text4 .ljgd4 {
+    display: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.box4 .text4 #jt {
+    color: red;
+
+}
+
+.box4:hover {
+    background-size: 110%;
+    transition: all 1s;
+}
+
+.jieshao2 {
+    position: absolute;
+    top: 3150px;
+    left: 300px;
+}
+
+.jieshao2 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 0.5;
+}

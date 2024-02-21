@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/开封府.css">
+
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+</head>
+
+<body>
+    <!-- 轮播图 -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/视觉中国/开封府/VCG211295046064.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/视觉中国/开封府/VCG211338458755.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/视觉中国/开封府/VCG211345903573.jpg">
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- 折叠 -->
+    <div class="container mt-5">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        简介
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        开封府，位于河南省开封市包公东湖北岸，是北宋京都官吏行政、司法的衙署，被誉为天下首府，是国家AAAA级旅游景区。
+                        史料记载，北宋开封府共有183任府尹，尤以包公打座南衙而驰名中外。今日重建的开封府，占地60余亩，建筑面积1.36万平方米，与位于包公西湖的包公祠相呼应，同碧波荡漾的三池湖水相映衬，形成了东府西祠、楼阁碧水的秀美景观。
+                        2020年2月，为致敬广大医务工作者，自疫情结束景区开放之日起至2020年12月31日，景区将向全国医务工作者免费开放。
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    <div class="card-header">
+                        历史沿革
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    开封府，又称南衙，初建于五代后梁开平元年（公元907年），已有一千多年历史。五代时期，后梁太祖开平（907年）以汴州为都城，号称东都。汴州升为开封府，辖15县，浚仪、开封均为附廓县。
+                    后唐庄宗同光元年（923年），迁都洛阳，改开封府为汴州。</p>
+                    <p>后晋高祖天福3年（938年），仍以开封为都，称东京，洛阳称西京。汴州复升为开封府。后汉建置一如后晋。后周太祖广顺元年（951年），以汴州为东京。
+                        北宋太祖建隆元年（960年），陈桥兵变后，以开封为国都，称东京。开封府建置不变，辖16县（开封、祥符、尉氏、陈留、雍丘、封丘、中牟、阳武、延津、长垣、东明、扶沟、鄢陵、考城、太康、咸平），祥符（原浚仪县）、开封两县仍同为附郭县。
+                    </p>
+
+                    <p>从太祖建隆元年（960年）到钦宗靖康二年（1127年），东京历经9个皇帝，历时167年。金代，置行台尚书省于汴京，并设汴京路开封府，辖15县，路治、府治均设汴京。
+                        海陵王贞元元年（1153年），金改汴京为南京，将汴京路改称南京路，以南京（开封）为都19年。元代，置河南江北行中书省，省治开封。撤开封府，由南京路直辖郑、许、陈、钧、睢等5州21县及直属之17县，共38县。南京路治为开封。
+                        世祖至元二十五年（1288年），改南京路为汴梁路。明代改汴梁路为开封府。置河南行中书省，后改为河南承宣布政使司。省治、府治、县治均设于祥符（今开封市）。
+                        清圣祖康熙元年（1662年）重修开封城池，将省治、府治、县治迁至祥符（今开封市）。1913年，废府。</p></b>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    地理环境
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    开封府地处中原腹地，豫东大平原、黄河下游大冲积扇南翼 ，属暖温带大陆性季风气候，四季分明，光照充足，气候温和，雨量适中。
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    主要环境
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <h3>文城墙</h3>
+                    <b>
+                        <p>布置有精美的日晷、高表、漏壶和巨大的报时钟、报时鼓，不仅再现了北宋开封府利用这些仪器计日报时的历史，也生动地反映了北宋“重文抑武”政策的影响。</p>
+                    </b>
+                    <h3>天庆观景区</h3>
+                    <b>
+                        <p>建有一座豪华的道观。在三清殿和佑圣殿、福佑殿中，分别绘有表现北宋崇奉道教的巨幅故事壁画，整个庭院是一个巨大的太极八卦台，反映了当时繁荣的道教文化。梅花堂：由齐民堂，东西配殿所组成。在这里可以了解到“包公倒最坐南衙”、“包待制智勘灰阑记”等演义故事。景区内还有包公倒坐南衙办案时的蜡像等。
+                        </p>
+                    </b>
+                    <h3>校场区</h3>
+                    <b>
+                        <p>开封府举行重大节庆活动的场所。设有英武楼、军械库、马厩、演武场、大照壁等景观。每天上午和下午，这里都有精彩的“包公宴请各国使臣”文艺表演。</p>
+                    </b>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 模态框 -->
+    <h2 class=" mt-5">
+        <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>你的评价
+    </h2>
+    <!-- 按钮触发模态框 -->
+    <button class="button btn btn-primary mt-5 button-pill button-longshadow-right button-plain" data-toggle="modal"
+        data-target="#myModal">
+        开始评分
+    </button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title " id="myModalLabel">
+                        您的印象分
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-warning active">
+                            <input type="radio" name="score" checked autocomplete="off"> 1分
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="score" autocomplete="off"> 2分
+                        </label>
+                        <label class="btn btn-info active">
+                            <input type="radio" name="score" autocomplete="off"> 3分
+                        </label>
+                        <label class="btn btn-light">
+                            <input type="radio" name="score" autocomplete="off"> 4分
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="score" autocomplete="off"> 5分
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </button>
+                    <button type="button btn btn-primary mt-5 button-pill button-longshadow-right button-plain"
+                        id="butto" class="btn btn-primary" data-dismiss="modal">
+                        提交更改
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#butto").click(function () {
+            alert("感谢你的评价")
+            $(".modal-body").alert("close")
+        })
+    })
+</script>
+
+</html>

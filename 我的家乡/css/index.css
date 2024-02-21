@@ -1,0 +1,103 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/VCG211306257648.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    margin-left: 350px;
+    position: relative;
+}
+
+
+
+.shell {
+    width: 70%;
+    height: 425px;
+    display: flex;
+    margin-top: 130px;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transform: 5.5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 10px solid #fff;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.box a img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+
+.box>span {
+    display: inline-block;
+    width: 100px;
+    font: 200 16px '优设标题黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.box:hover {
+    transition: all 1.5s;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.button {
+    position: absolute;
+    top: 30px;
+    right: 145px;
+}
+
+#demo1 {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    background-color: #fff;
+    top: 125px;
+    right: 250px;
+}
+
+#demo1 img {
+    cursor: pointer;
+    width: 40px;
+}
+
+.form-control {
+    width: 35%;
+}
+
+.alert {
+    width: 100%;
+    position: fixed;
+    display: none;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/开封府.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+
+<body>
+    <!-- 轮播图 -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/视觉中国/清明上河园/VCG211321835898.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/视觉中国/清明上河园/VCG211326620787.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="img/视觉中国/清明上河园/VCG211331702742.jpg">
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- 折叠 -->
+    <div class="container mt-5">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        简介
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        <b>
+                            <p>清明上河园是按照北宋著名画家张择端的传世之作《清明上河图》为蓝本建造的大型宋代历史文化主题公园，坐落在八朝古都开封，是国家AAAAA级景区、国家文化产业示范基地。
+                                清明上河园是中国著名八朝古都河南开封的一座大型历史文化主题公园，占地600余亩，坐落在开封城风光秀丽的龙亭湖西岸。它是依照北宋著名画家张择端的传世之作《清明上河图》为蓝本建造的，于1998年10月28日正式对外开放。
+                                2021年10月，入选首批河南省中小学研学旅行实践基地拟认定名单。
+                                2022年6月1日，入选河南首批省级文化和旅游业“白名单”企业。</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    <div class="card-header">
+                        景点特色
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <b>
+                        <p>清明上河园是依照北宋著名画家张择端的传世之作《清明上河图》为蓝本建造的，于1998年10月28日正式对外开放。
+                            《清明上河图》是中国古代一幅弥足珍贵的社会民俗生活长卷，画中反映了开封作为中国北宋时期都城的社会生活、市井风情和城建格局。
+                            虽然它所反映的只是当时开封的一部分，但管中窥豹，可见一斑，由此也不难推想其他街市的大略形貌。有趣的是，千年前，张择端把它从现实搬到了画卷，千年后，
+                            开封人又把它从画卷上搬到了现实。徜徉其中，常令人有“一朝步入画卷，一日梦回千年”的时光倒流之感。</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    地理环境
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <b>
+                        <p>清明上河园地处中原腹地，豫东大平原、黄河下游大冲积扇南翼 ，属暖温带大陆性季风气候，四季分明，光照充足，气候温和，雨量适中。</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    建筑布局
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <b>
+                        <p>清明上河园是按照1:1的比例把宋代著名画家张择端的代表作，堪称中华民族艺术之瑰宝的《清明上河图》复原再现的大型宋代历史文化主题公园。清明上河园占地600余亩，其中水面180亩，大小古船50多艘，房屋400余间，景观建筑面积30000多平方米，形成了中原地区最大的复原宋代的建筑。
+                            2009年，清明上河园荣膺世界纪录协会中国第一座以绘画作品为原型的仿古主题公园，是中原大黄河郑、汴、洛黄金旅游线上的一个重要景区（点）。
+                            清明上河园设驿站、民俗风情、特色食街、宋文化展示、花鸟鱼虫、繁华京城、休闲购物和综合服务等八个功能区，并设有校场、虹桥、民俗、宋都等四个文化区。还设立了宋代科技馆、宋代名人馆、宋代犹太文化馆和张择端纪念馆
+                            。清明上河园主要建筑有城门楼、虹桥、街景、店铺、河道、码头、船坊等。园区按《清明上河图》的原始布局，集中展现宋代诸如酒楼、茶肆、当铺、汴绣、官瓷、年画等现场制作；荟集民间游艺、杂耍、盘鼓表演；神课算命、博彩、斗鸡、斗狗等千年（汴京）东京城京都繁华街市风情。
+                        </p>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 模态框 -->
+    <h2 class=" mt-5"><i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>你的评价</h2>
+    <!-- 按钮触发模态框 -->
+    <button class="btn btn-primary btn-lg button btn btn-primary mt-5 button-pill button-longshadow-right button-plain"
+        data-toggle="modal" data-target="#myModal">
+        开始评分
+    </button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title " id="myModalLabel">
+                        您的印象分
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-warning active">
+                            <input type="radio" name="score" checked autocomplete="off"> 1分
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="score" autocomplete="off"> 2分
+                        </label>
+                        <label class="btn btn-info active">
+                            <input type="radio" name="score" autocomplete="off"> 3分
+                        </label>
+                        <label class="btn btn-light">
+                            <input type="radio" name="score" autocomplete="off"> 4分
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="score" autocomplete="off"> 5分
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </button>
+                    <button type="button" id="butto" class="btn btn-primary" data-dismiss="modal">
+                        提交更改
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#butto").click(function () {
+            alert("感谢你的评价")
+            $(".modal-body").alert("close")
+        })
+    })
+</script>
+
+</html>

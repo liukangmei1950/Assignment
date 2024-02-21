@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/computer.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+</head>
+
+<body>
+    <!-- 警告框 -->
+    <div class="alert alert-warning fade show">
+        <strong>警告!</strong>请再仔细检查一遍.
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+    </div>
+    <!-- 手风琴 -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="shell">
+                <div class="box">
+                    <a href="./开封府.html">
+                        <img src="./img/VCG211291343530.jpg" alt="">
+                    </a>
+                    <h3>龙庭</h3>
+                    <span> <i class="fa fa-home"></i> 龙庭</span>
+                </div>
+                <div class="box">
+                    <a href="./开封府.html">
+                        <img src="./img/VCG211358187012.jpg" alt="">
+                    </a>
+                    <h3>开封府</h3>
+                    <span><i class="fa fa-torii-gate"></i> 开封府</span>
+                </div>
+                <div class="box">
+                    <a href="./清明上河园.html">
+                        <img src="./img/VCG211370417430.jpg" alt="">
+                    </a>
+                    <h3>清明上河园</h3>
+                    <span><i class="fa fa-synagogue"></i>清明上河园</span>
+                </div>
+                <div class="box">
+                    <a href="./铁塔.html">
+                        <img src="./img/VCG21gic3259818.jpg" alt="">
+                    </a>
+                    <h3>开封铁塔</h3>
+                    <span><i class="fa fa-monument"></i>开封铁塔</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 按钮 -->
+    <button class="button btn btn-primary mt-5 button-pill button-longshadow-right button-plain" id="bu1"
+        data-toggle="collapse" data-target="#demo1">
+        <span class="spinner-grow spinner-grow-sm"></span>
+        开始登陆
+    </button>
+    <!-- 表单 -->
+    <div id="demo1" class="collapse">
+        <img src="./img/叉.png" alt="">
+        <div class="tab mt-3">
+            <h3>性别:</h3>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-success active">
+                    <input type="radio" name="sex" autocomplete="off"> 男
+                </label>
+                <label class="btn btn-success">
+                    <input type="radio" name="sex" autocomplete="off"> 女
+                </label>
+            </div>
+            <h3>爱好:</h3>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-success active">
+                    <input type="checkbox" name="inter" autocomplete="off"> 唱
+                </label>
+                <label class="btn btn-success">
+                    <input type="checkbox" name="inter" autocomplete="off"> 跳
+                </label>
+                <label class="btn btn-success">
+                    <input type="checkbox" autocomplete="off"> rap
+                </label>
+            </div>
+            <h3>出生日期:</h3>
+            <form>
+                <div class="form-group">
+                    年:
+                    <select class="form-control" id="sel1">
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+
+                    </select>
+                    月:
+                    <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    日:
+                    <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </div>
+            </form>
+            <button type="button" class="btn btn-primary" id="butt">提交</button>
+        </div>
+    </div>
+</body>
+<script>
+
+
+</script>
+
+</html>

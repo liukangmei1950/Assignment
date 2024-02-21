@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.body {
+    position: relative;
+    width: 80%;
+    height: 70%;
+    /* background-color: rgb(89, 60, 81); */
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+.body .shell {
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    border: 10px solid white;
+    overflow-x: hidden;
+    border-radius: 5px;
+    box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 1550px;
+}
+
+.images {
+    width: 449%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.img img {
+    width: 90%;
+    background-size: cover;
+}
+
+.min-images {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    width: 40%;
+    height: 80px;
+    padding-top: 20px;
+    z-index: 999;
+    right: 10%;
+    /* border: 1px solid saddlebrown; */
+}
+
+.min img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: -20px 0;
+}
+
+.size {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid rgba(252, 39, 39, 0.5);
+    /* background-position: -20px 0; */
+}
+
+
+.butt a {
+    display: inline-block;
+    width: 50px;
+    height: 150px;
+    background-color: rgb(68, 75, 75);
+    font-size: 50px;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+.left {
+    position: absolute;
+    top: 35%;
+    left: 0px;
+}
+
+.right {
+    position: absolute;
+    top: 35%;
+    right: 0px;
+}
+
+footer {
+    height: 900px;
+    /* background-color: darkcyan; */
+    position: relative;
+    margin-top: 150px;
+}
+
+.hot img {
+    position: absolute;
+    top: -145px;
+    left: 530px;
+
+}
+
+.xiaye {
+    width: 1400px;
+    height: 700px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-left: 55px;
+
+}
+
+.tupian {
+    position: absolute;
+
+    top: 320px;
+    left: -50px;
+    width: 150px;
+    height: 500px;
+    background: url("../images/left.png") no-repeat;
+}
+
+.tupian2 {
+    width: 800px;
+    height: 497px;
+    position: absolute;
+    top: 320px;
+    left: 42px;
+    background: url("../images/b2.png");
+    display: none;
+}
+
+.xiaye img {
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    transition: all 1s;
+}
+
+.jinqitejia1 {
+    width: 650px;
+    height: 300px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    float: left;
+    position: relative;
+    margin-left: 40px;
+}
+
+.jinqitejia1 img:hover {
+    width: 290px;
+}
+
+.jinqitejia1 .text {
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
+
+.jinqitejia2 {
+    width: 650px;
+    height: 300px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 40px;
+    position: relative;
+}
+
+.jinqitejia2 img:hover {
+    width: 290px;
+}
+
+.jinqitejia2 .text {
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
+
+.jinqitejia3 {
+    width: 650px;
+    height: 300px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+
+.jinqitejia3 img:hover {
+    width: 290px;
+}
+
+.jinqitejia3 .text {
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
+
+.jinqitejia4 {
+    width: 650px;
+    height: 300px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 40px;
+    position: relative;
+}
+
+.jinqitejia4 img:hover {
+    width: 290px;
+}
+
+.jinqitejia4 .text {
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
+
+.jieshao {
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+}
+
+.jieshao p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 0.5;
+}

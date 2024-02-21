@@ -1,0 +1,31 @@
+.container {
+    margin-left: 350px;
+}
+
+.lbox {
+    margin: 30px;
+    padding: 10px;
+}
+
+.lbox .row {
+    padding: 8px 0px;
+}
+
+.progress {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.rbox {
+    margin: 30px;
+}
+
+.rbox h4 {
+    padding-bottom: 5px;
+    color: #17a2b8;
+    border-bottom: 1px solid #17a2b8;
+}
+
+/* #con {
+    float: right;
+} */

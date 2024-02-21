@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/美食.css">
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">粤菜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">川菜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">鲁菜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section4">闽菜</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    其他
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item " href="#section41">苏菜</a>
+                    <a class="dropdown-item " href="#section42">湘菜</a>
+                    <a class="dropdown-item disabled" href="#section41">浙菜</a>
+                    <a class="dropdown-item disabled" href="#section42">徽菜</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+        <h1>粤菜</h1>
+        <p>广东菜简称粤菜。由广州菜（也称广府菜）、潮州菜（也称潮汕菜）、东江菜（也称客家菜）三种地方风味组成，三种风味各具特色。</p>
+        <p>在世界各地粤菜与法国大餐齐名，世界各国的中菜馆，多数是以粤菜为主，因此有不少人认为粤菜是海外中国的代表菜系。粤菜的特点是丰富精细的选材和清淡的口味。</p>
+    </div>
+    <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+        <h1>川菜</h1>
+        <p>川菜在原有的基础上，吸收南北菜肴之长及官、商家宴菜品的优点，形成了北菜川烹、南菜川味的特点，享有“食在中国，味在四川”的美誉。</p>
+        <p>川菜讲究色、香、味、形，在“味”字上下功夫，以味的多、广、厚著称。川菜口味的组成，主要有“麻、辣、咸、甜、酸、苦、香”7种味道。有麻辣、酸辣、红油、白油等几十种各具特色的复合味，有“一菜一格，百菜百味”的称誉。</p>
+    </div>
+    <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+        <h1>鲁菜</h1>
+        <p>山东菜可分为济南风味菜、胶东风味菜、孔府菜和其他地区风味菜，并以济南菜为典型，煎炒烹炸、烧烩蒸扒、煮氽熏拌、溜炝酱腌等有50多种烹饪方法。</p>
+        <p>济南菜以清香、脆嫩、味厚纯正而著称，特别精于制汤，清浊分明。</p>
+    </div>
+    <div id="section4" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+        <h1>闽菜</h1>
+        <p>福建菜俗称闽菜，是中国著名八大菜系之一，以福州菜为代表，素以制作细巧、色调美观、调味清鲜著称。</p>
+        <p>福建菜以海鲜类为主，口味方面则咸、甜、酸、辣、香具备，咸的调味品有虾酱、虾油、豉油等；甜的有红糖、冰糖等；酸的有白醋、乔头等；辣的有胡椒、芥末等；香的有红糖、五香粉、八角、桂皮等。</p>
+    </div>
+    <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+        <h1>苏菜</h1>
+        <p>江苏的历代名厨造就了苏菜风格的传统佳肴，而“天堂”美誉的苏州和“壮丽东南第一州”的运河之都淮安以及被史家叹为“富甲天下”的扬州则是名厨美馔的摇篮。苏菜正是以这三方风味为主汇合而成的。</p>
+        <p>苏菜有如下几个特点：一是选料严谨，制作精细；二是擅长炖、焖、煨、焐、蒸、烧、炒等烹饪方法；三是口味清鲜，咸甜得宜，浓而不腻，淡而不薄；四是注重调汤，保持原汁。苏州菜口味趋甜，刀工精细，火候精微，色调清新，造型别致，突出主料，强调本味，清淡可口，适应面宽，尤以擅长制汤而著称。
+        </p>
+    </div>
+    <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+        <h1>湘菜</h1>
+        <p>湘菜又称湖南菜，由于湖南民丰物博，向称鱼米之乡。</p>
+        <p>湘菜以腴滑肥润为主，多将辣椒当主菜食用，不仅有北方的咸，也有南方的甜，湘菜特别讲究原料的入味，技法多样，有烧、炒、蒸、熏等方法。</p>
+    </div>
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+    </ul>
+</body>
+
+</html>

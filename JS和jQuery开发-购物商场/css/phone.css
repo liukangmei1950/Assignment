@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 82vh;
+}
+
+/* 去掉单选按钮 */
+input[type=radio] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.shell {
+  width: 100%;
+  max-width: 800px;
+  max-height: 570px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 810px;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+
+#item-1:checked~.cards #phone-1,
+#item-2:checked~.cards #phone-2,
+#item-3:checked~.cards #phone-3 {
+  transform: translatex(0) scale(1);
+  border-radius: 10px;
+  box-shadow: 0 2px 40px rgba(255, 255, 255, 0.8);
+  opacity: 1;
+  z-index: 1;
+}
+
+#item-1:checked~.cards #phone-2,
+#item-2:checked~.cards #phone-3,
+#item-3:checked~.cards #phone-1 {
+  transform: translatex(50%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+#item-1:checked~.cards #phone-3,
+#item-2:checked~.cards #phone-1,
+#item-3:checked~.cards #phone-2 {
+  transform: translatex(-50%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+
+.phones {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 180px;
+  /* padding: 20px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(40, 40, 40, 0.5);
+}
+
+.title {
+  font: 700 17px '';
+}
+
+.information {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 42px;
+  overflow: hidden;
+}
+
+.info-area {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transition: transform 0.4s ease-in;
+}
+
+.phone-info {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+/* 每次点击图片时，对应的歌曲列表就会向下移动 */
+#item-2:checked~.phones #test {
+  transform: translateY(0);
+}
+
+#item-2:checked~.phones #test {
+  transform: translateY(-45px);
+}
+
+#item-3:checked~.phones #test {
+  transform: translateY(-85px);
+}
+
+#zhuangshi {
+  width: 200px;
+  position: absolute;
+  top: 324px;
+  left: -200px;
+}
+
+.jieshao {
+  width: 1300px;
+  height: 1000px;
+  position: absolute;
+  top: 2200px;
+  left: 100px;
+
+}
+
+
+.tj1 {
+  width: 1150px;
+  height: 429px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 25px;
+
+}
+
+.tj1 .image {
+  width: 450px;
+  height: 220px;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+}
+
+.tj1 .image img {
+  height: 430px;
+  border-radius: 25px;
+}
+
+.tj1 .text {
+  width: 500px;
+  height: 220px;
+  position: absolute;
+  top: 90px;
+  left: 650px;
+}
+
+.tj1 .text p:nth-child(1) {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+.tj1 .text p:nth-child(2) {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(196, 192, 192);
+}
+
+.tj1 .text input {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.tj1 .text input:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+.tj1 .text input:nth-child(2) {
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.tj2 {
+  width: 550px;
+  height: 550px;
+  background-color: white;
+  position: relative;
+  float: left;
+  margin-left: 75px;
+  margin-top: 50px;
+  border-radius: 25px;
+
+}
+
+.tj2 .image {
+  width: 450px;
+  height: 220px;
+  position: absolute;
+  top: -1px;
+  left: 120px;
+}
+
+.tj2 .image img {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.tj2 .text {
+  width: 400px;
+  height: 220px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.tj2 .text p:nth-child(1) {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+.tj2 .text p:nth-child(2) {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(196, 192, 192);
+}
+
+.tj2 .text input {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.tj2 .text input:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+.tj2 .text input:nth-child(2) {
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.tj3 {
+  width: 550px;
+  height: 550px;
+  background-color: white;
+  position: relative;
+  float: left;
+  margin-left: 75px;
+  margin-top: 50px;
+  border-radius: 25px;
+
+}
+
+.tj3 .image {
+  width: 450px;
+  height: 220px;
+  position: absolute;
+  top: -1px;
+  left: 120px;
+}
+
+.tj3 .image img {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.tj3 .text {
+  width: 400px;
+  height: 220px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.tj3 .text p:nth-child(1) {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+.tj3 .text p:nth-child(2) {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(196, 192, 192);
+}
+
+.tj3 .text input {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.tj3 .text input:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+.tj3 .text input:nth-child(2) {
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.jieshao2 {
+  position: absolute;
+  top: 3450px;
+  left: 300px;
+}
+
+.jieshao2 p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  opacity: 0.5;
+}

@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm ">
+        <div class="collapse navbar-collapse  justify-content-end mr-5 " id="navbarNav">
+            <ul class="navbar-nav  ">
+                <li class="nav-item .bg-transparent mr-5  active">
+                    <a class="nav-link" data-toggle="tab" href="#jingju">
+                        <i class="fa fa-home"></i> 京剧
+                    </a>
+                </li>
+                <li class="nav-item  mr-5 ">
+                    <a class="nav-link" data-toggle="tab" href="#chuantongwenhua">
+                        <i class="fa fa-gopuram"></i> 传统文化
+                    </a>
+                </li>
+                <li class="nav-item  mr-5 ">
+                    <a class="nav-link" data-toggle="tab" href="#gudianwenxue">
+                        <i class="far fa-file-alt"></i> 古典文学
+                    </a>
+                </li>
+                <li class="nav-item  mr-5 ">
+                    <a class="nav-link" data-toggle="tab" href="#feiyi">
+                        <i class="fa fa-book"></i> 非遗
+                    </a>
+                </li>
+                <li class="nav-item  mr-5 ">
+                    <a class="nav-link" data-toggle="tab" href="#meishi">
+                        <i class="fa fa-bacon"></i> 美食
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/反馈.html">
+                        <i class="fa fa-question-circle"></i> 问题反馈
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="jingju" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container-fluid">
+                <div class="alert alert-warning">
+                    <a href="#" class="close" data-dismiss="alert">
+                        &times;
+                    </a>
+                    <strong>注意！</strong>仅“生”的图片可以跳转二级页面。
+                </div>
+                <div class="container ">
+                    <div class="shell">
+                        <div class="box">
+                            <a href="./html/生角.html"> <img class="card img-fluid" src="./img/生.PNG"></a>
+                            <span>生</span>
+                        </div>
+                        <div class="box">
+                            <a href=""> <img src="./img/旦.PNG"></a>
+                            <span>旦</span>
+                        </div>
+                        <div class="box">
+                            <a href=""> <img src="./img/净.webp"></a>
+                            <span>净</span>
+                        </div>
+                        <div class="box">
+                            <a href=""> <img src="./img/老生.webp"></a>
+                            <span>末</span>
+                        </div>
+                        <div class="box">
+                            <a href=""> <img src="./img/丑.PNG"></a>
+                            <span>丑</span>
+                        </div>
+                    </div>
+                    <div class="jieshao mt-5">
+                        <div class="row mt-5">
+                            <div class="col-md-6 bg-success img_box"><img src="./img/京剧.png" alt="" srcset="">
+                            </div>
+                            <div class="col-md-5  bg-warning">
+                                <div class="text">
+                                    <h3>京剧</h3>
+                                    <p>
+                                        京剧，曾称平剧，中国五大戏曲剧种之一，场景布置注重写意，腔调以西皮、二黄为主，用胡琴和锣鼓等伴奏，被视为中国国粹，中国戏曲三鼎甲“榜首”。
+                                    </p>
+                                    <p>京剧走遍世界各地，分布地以北京为中心，遍及中国，成为介绍、传播中国传统艺术文化的重要媒介。在2010年11月16日，京剧被列入“世界非物质文化遗产代表作名录”。
+
+                                        代表剧目：《贵妃醉酒》《霸王别姬》等</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5  bg-warning">
+                                <div class="text">
+                                    <h3>豫剧</h3>
+                                    <p>
+                                        豫剧起源于中原（河南），是中国五大戏曲剧种之一 、中国第一大地方剧种。
+
+                                        豫剧是在河南梆子的基础上不断继承、改革和创新发展起来的。建国后因河南简称“豫”，故称豫剧。
+                                    </p>
+                                    <p>豫剧以唱腔铿锵大气、抑扬有度、行腔酣畅、吐字清晰、韵味醇美、生动活泼、有血有肉、善于表达人物内心情感著称，凭借其高度的艺术性而广受各界人士欢迎。
+
+                                        代表剧目：《花木兰》《穆桂英挂帅》等</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 bg-success  img_box"><img src="./img/豫剧.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 bg-success img_box"><img src="./img/川剧.png" alt="" srcset="">
+                            </div>
+                            <div class="col-md-5  bg-warning">
+                                <div class="text">
+                                    <h3>川剧</h3>
+                                    <p>川剧俗称川戏，是中国传统戏曲剧种之一，主要流行于中国西南地区川渝云贵四省市的汉族地区，是融汇高腔、昆曲、胡琴(即皮黄)、弹戏(即梆子)和四川民间灯戏五种声腔艺术而成的传统剧种。
+
+                                    </p>
+                                    <p>川剧由昆腔、高腔、胡琴、弹戏、灯调五种声腔组成。川剧分小生，须生，旦，花脸，丑角5个行当，各行当均有自成体系的功法程序，尤以“三小”，即小丑，小生，小旦的表演最具特色，在戏剧表现手法、表演技法方面多有卓越创造，能充分体现中国戏曲虚实相生、遗形写意的美学特色。
+
+                                        2006年5月20日，川剧经国务院批准列入首批国家级非物质文化遗产名录。
+
+                                        代表剧目：《柳荫记》《玉簪记》《彩楼记》《白蛇传》等。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5  bg-warning">
+                                <div class="text">
+                                    <h3>昆曲</h3>
+                                    <p>
+                                        昆曲原名“昆山腔”或“昆腔”，是中国古老的戏曲声腔、剧种，现又被称为“昆剧”。很多剧种都是在昆剧的基础上发展起来的，被称为“百戏之祖，百戏之师”，有“中国戏曲之母”的雅称。
+                                    </p>
+                                    <p>昆曲糅合了唱念做打、舞蹈及武术等，以曲词典雅、行腔婉转、表演细腻著称，被誉为“百戏之祖”。昆曲以鼓、板控制演唱节奏，以曲笛、三弦等为主要伴奏乐器，其唱念语音为“中州韵”。
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 bg-success  img_box"><img src="./img/昆曲.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 bg-success img_box"><img src="./img/越剧.png" alt="" srcset="">
+                            </div>
+                            <div class="col-md-5  bg-warning">
+                                <div class="text">
+                                    <h3>越剧</h3>
+                                    <p>
+                                        越剧是中国第二大剧种，第二国剧之称，又被称为是“流传最广的地方剧种”，在国外被称为“中国歌剧”。亦为中国五大戏曲剧种之一。发源于浙江嵊州，发祥于上海，繁荣于全国，流传于世界，在发展中汲取了昆曲、话剧、绍剧等特色剧种之大成，经历了由男子越剧到女子越剧为主的历史性演变。
+                                    </p>
+                                    <p>越剧长于抒情，以唱为主，声音优美动听，表演真切动人，唯美典雅，极具江南灵秀之气；多以“才子佳人”题材为主，艺术流派纷呈，公认的就有十三大流派之多。越剧列入首批国家级非物质文化遗产名录。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="chuantongwenhua" role="tabpanel" aria-labelledby="chuantongwenhua-tab">
+            <div class="bg-image">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 class="title ">传统文化</h1>
+                                <p class="p1">中国传统文化是中国民族文明、风俗、精神的总称，为中华文明演化而汇集成的一种反映民族特质和风貌的民族文化。
+
+                                    中国传统文化以儒、佛、道三家传统文化思想为主干。三者相互依存，相互渗透，相互影响，构筑中国传统文化的整体。这三家传统文化之思想，在中国合称为“三教”。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="heritage">
+                            <h1 class="text-center mt-5">历史遗迹</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/长城.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">长城</h4>
+                                                <p class="card-text">
+                                                    长城是公元前3世纪至公元17世纪中国在国家北部持续修建的军事防御工程。长城东起辽宁虎山，墙体西达甘肃玉门关，总长度约2万多千米，由墙体、界壕/壕堑、单体建筑（敌台、马面、烽火台）、关堡及相关遗存等构成。玉门关以西，由烽火台构成的多条烽燧线一直延伸至新疆西部。
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <img src="" alt="" srcset="">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/莫高窟.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">莫高窟</h4>
+                                                <p class="card-text">
+                                                    莫高窟地处丝绸之路的一个战略要点，它不仅是东西方贸易的中转站，同时也是宗教、文化和知识的交汇处。莫高窟以其雕像和壁画闻名于世，展示了延续千年的佛教艺术。
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/龙门石窟.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">John Doe</h4>
+                                                <p class="card-text">
+                                                    龙门石窟位于河南省洛阳市南郊伊河两岸的龙门山与香山上，始建于北魏（493年）。现有洞窟2300余个，碑刻题记2800块，佛塔60余座，造像近11万尊。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="skill">
+                            <h1 class="text-center mt-5">传统技艺</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/年画.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">年画</h4>
+                                                <p class="card-text">
+                                                    传统年画以木刻水印为主，追求拙朴的风格与热闹的气氛，因而画的线条单纯、色彩鲜明。内容有花鸟、胖孩、金鸡、春牛、神话传说与历史故事等，表达人们祈望丰收的心情和对幸福生活的憧憬，具有浓郁的民族特色与乡土气息。
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/剪纸.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">剪纸</h4>
+                                                <p class="card-text">
+                                                    剪纸，又叫刻纸，窗花或剪画。区别在创作时，有的用剪子，有的用刻刀，虽然工具有别，但创作出来的艺术作品基本相同，人们统称为剪纸。</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/皮影.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">皮影戏</h4>
+                                                <p class="card-text">
+                                                    皮影戏，是一种用灯光照射兽皮或纸板做成的人物剪影以表演故事的民间戏剧。表演时,艺人们在白色幕布后面，一边操纵戏曲人物，一边用当地流行的曲调唱述故事，同时配以打击乐器和弦乐，有浓厚的乡土气息。在河南农村，这种拙朴的民间艺术形式很受人们的欢迎。
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="festival">
+                            <h1 class="text-center mt-5">文化节庆</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/春节.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">春节</h4>
+                                                <p class="card-text">
+                                                    百节年为首、四季春为先，春节是中华民族最隆重的传统佳节。受到中华文化的影响，世界上一些国家和地区也有庆贺新春的习俗。据不完全统计，已有近20个国家和地区把中国春节定为整体或者所辖部分城市的法定节假日。春节与清明节、端午节、中秋节并称为中国四大传统节日
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/中秋.png" alt="Card image"
+                                                style="width:130%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">中秋</h4>
+                                                <p class="card-text">
+                                                    中秋节，又称祭月节、月光诞、月夕、秋节、仲秋节、拜月节、月娘节、月亮节、团圆节等，是中国民间传统节日。中秋节源自对天象的崇拜，由上古时代秋夕祭月演变而来。中秋节自古便有祭月、赏月、吃月饼、看花灯、赏桂花、饮桂花酒等民俗，流传至今，经久不息。
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card img-fluid" style="width:500px">
+                                            <img class="card-img-top" src="./img/清明.png" alt="Card image"
+                                                style="width:150%">
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">清明</h4>
+                                                <p class="card-text">
+                                                    清明节是传统的重大春祭节日，扫墓祭祀、缅怀祖先，是中华民族自古以来的优良传统，不仅有利于弘扬孝道亲情、唤醒家族共同记忆，还可促进家族成员乃至民族的凝聚力和认同感。清明节融汇自然节气与人文风俗为一体，是天时地利人和的合一，充分体现了中华民族先祖们追求“天、地、人”的和谐合一，讲究顺应天时地宜、遵循自然规律的思想。
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">文化遗产</div>
+                            <div class="card-body">
+                                <p>介绍文化遗产的相关信息</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">传统技艺</div>
+                            <div class="card-body">
+                                <p>介绍传统技艺的相关信息</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">文化节庆</div>
+                            <div class="card-body">
+                                <p>介绍文化节庆的相关信息</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="tab-pane fade" id="gudianwenxue" role="tabpanel" aria-labelledby="gudianwenxue-tab">
+            <div id="demo" class="carousel slide " data-ride="carousel">
+
+                <!-- 指示符 -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/西游记.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/红楼梦.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/文学.jpg">
+                    </div>
+                </div>
+
+                <!-- 左右切换按钮 -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <button type="button" class="btn" title="西游记" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="《西游记》是中国古代第一部浪漫主义章回体长篇神魔小说。 [39] [41] 今见最早的《西游记》版本是明代万历二十年金陵世德堂《新刻出像官板大字西游记》，未署作者姓名。鲁迅、董作宾等人根据《淮安府志》“吴承恩《西游记》”的记载予以最终论定“吴承恩原著”。
+                            该小说主要讲述了孙悟空出世，跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。该小说以“玄奘取经”这一历史事件为蓝本，经作者的艺术加工，深刻地描绘出明代百姓的社会生活状况。">
+                            <div class="card" style="width:250px">
+                                <div class="img1">
+                                    <img class="card-img-top" src="./img/xiyouji.jpg" alt="Card image"
+                                        style="width:100%">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">西游记</h4>
+
+                                </div>
+                            </div>
+
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn" title="水浒传" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="《水浒传》是元末明初施耐庵（现存刊本署名大多有施耐庵、罗贯中两人中的一人，或两人皆有）编著的章回体长篇小说。
+                            全书通过描写梁山好汉反抗欺压、水泊梁山壮大和受宋朝招安，以及受招安后为宋朝征战，最终消亡的宏大故事，艺术地反映了中国历史上宋江起义从发生、发展直至失败的全过程，深刻揭示了起义的社会根源，满腔热情地歌颂了起义英雄的反抗斗争和他们的社会理想，也具体揭示了起义失败的内在历史原因。">
+                            <div class="card" style="width:250px">
+                                <div class="card" style="width:250px">
+                                    <div class="img1">
+                                        <img class="card-img-top" src="./img/shuihu.png" alt="Card image"
+                                            style="width:100%">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">水浒传</h4>
+                                    </div>
+                                </div>
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn" title="三国演义" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="《三国演义》（又名《三国志演义》《三国志通俗演义》）是元末明初小说家罗贯中根据陈寿《三国志》和裴松之注解以及民间三国故事传说经过艺术加工创作而成的长篇章回体历史演义小说，与《西游记》《水浒传》《红楼梦》并称为中国古典四大名著。
+                            《三国演义》是罗贯中在有关三国故事的宋元话本、戏曲和轶事传闻的基础上，依据晋代陈寿所著的《三国志》以及南朝宋人裴松之为《三国志》所作的注，所进行的加工再创作。">
+                            <div class="card" style="width:250px">
+                                <div class="img1">
+                                    <img class="card-img-top" src="./img/sanguo.jpg" alt="Card image"
+                                        style="width:100%">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">三国演义</h4>
+
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3">
+                        <button type="button" class="btn" title="红楼梦" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="《红楼梦》，原名《石头记》，是中国古代章回体长篇小说，中国古典四大名著之首。其通行本共120回，一般认为前80回是清代作家曹雪芹所著，后40回作者为无名氏，由高鹗，程伟元整理。小说以贾、史、王、薛四大家族的兴衰为背景，以富贵公子贾宝玉为视角，以贾宝玉与林黛玉、薛宝钗的爱情婚姻悲剧为主线，描绘了一些闺阁佳人的人生百态，展现了真正的人性美和悲剧美，是一部从各个角度展现女性美以及中国古代社会百态的史诗性著作。">
+                            <div class="card" style="width:250px">
+                                <div class="img1">
+                                    <img class="card-img-top" src="./img/honglou.jpg" alt="Card image"
+                                        style="width:100%">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">红楼梦</h4>
+
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 " type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#myModal">
+
+                        <div class="card img-fluid" style="width:800px; height: 300px; overflow: hidden;">
+                            <img class="card-img-top" src="./img/shijing.jpg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">中国古典文学</h4>
+                                <p class="card-text">
+                                    中国古典文学评论多采用诗论、诗话、序跋、评点，以诗言诗等方式，与当代文学评论用数千字的注重逻辑体系的论文的方式有根本的不同。
+                                <div class="alert alert-success " style="margin-top:110px;">
+                                    <strong>请点击</strong> 该图片
+                                </div>
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 模态框1 -->
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- 模态框头部 -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">中国古典文学</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- 模态框主体 -->
+                                <div class="modal-body">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            先秦时期 <span class="caret"></span>
+                                        </button>
+                                        <div class="dropdown-menu" role="menu" style="width: 500px;">
+                                            <li>《楚辞》《公孙龙子》《公羊传》《关尹子》《管子》</li>
+                                            <li>《黄帝内经》《黄帝四经》《孔子家语》《老子》《列子》</li>
+                                            <li>《墨子》《穆天子传》《山海经》《商君书》《尚书》</li>
+                                            <li>《吴子兵法》《荀子》《晏子春秋》《仪礼》</li>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            秦汉时期 <span class="caret"></span>
+                                        </button>
+                                        <div class="dropdown-menu" role="menu" style="width: 500px;">
+                                            <li>《春秋繁露》《太平经》《尔雅》《法言》《汉书》</li>
+                                            <li>《淮南子》《礼记》《潜夫论》《史记》</li>
+                                            <li>《说苑》《吴越春秋》《孝经》</li>
+                                            <li>《新书》《新序》《盐铁论》《周易参同契》</li>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            魏晋南北朝时期 <span class="caret"></span>
+                                        </button>
+                                        <div class="dropdown-menu" role="menu" style="width: 500px;">
+                                            <li>《抱朴子》《博物志》《弘明集》《后汉书》</li>
+                                            <li>《洛阳伽蓝记》《南齐书》《齐民要术》《人物志》</li>
+                                            <li>《三国志》《神仙传》《世说新语》《拾遗记》</li>
+                                            <li>《宋书》《搜神记》《魏书》《文心雕龙》</li>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            隋唐时期 <span class="caret"></span>
+                                        </button>
+                                        <div class="dropdown-menu" role="menu" style="width: 500px;">
+                                            <li>《白氏长庆集》《北齐书》《北史》《茶经》</li>
+                                            <li>《王摩诘文集》《续玄怪录》《玄怪录》</li>
+                                            <li>《杜工部集》《晋书》《韩昌黎集》《李太白全集》</li>
+                                            <li>《吴子兵法》《荀子》《晏子春秋》《仪礼》</li>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 模态框底部 -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 " type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#myModal3">
+
+                        <div class="card img-fluid" style="width:800px; height: 300px; overflow: hidden;">
+                            <img class="card-img-top" src="./img/w.jpg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">诗经</h4>
+                                <p class="card-text">
+                                    《诗经》，是中国古代诗歌的开端，最早的一部诗歌总集，收集了西周初年至春秋中叶（前11世纪至前6世纪）的诗歌，共311篇，其中6篇为笙诗，即只有标题，没有内 …
+                                    《诗经》的作者佚名，绝大部分已经无法考证，传为尹吉甫采集、孔子编订。《诗经》在先秦时期称为《诗》，或取其整数称《诗三百》</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- 模态框2 -->
+            <div class="modal" id="myModal3">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- 模态框头部 -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">这里没有内容</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- 模态框主体 -->
+                        <div class="modal-body">
+                            请点击旁边的
+                        </div>
+
+                        <!-- 模态框底部 -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="feiyi" role="tabpanel" aria-labelledby="feiyi-tab">
+            <div id="newsfocus" class="container-fluid" style=" margin-top:10px ;">
+                <a href="./html/视频.html" class="btn btn-primary button-3d button-rounded"
+                    style="width: 80%; height:250px; margin-left: 150px;   background-image: url(./img/m3.jpg);;">
+                    <p style="font-size: 20px;">点击观看视频</p>
+                </a>
+                <div class="container-fluid">
+                    <div class="cord1">
+                        <h1 class="mt-5">新闻聚焦</h1>
+                        <ul class="list ">
+                            <li>
+                                <a href="#" title="非遗传承人诚信经营25年 “顿岗油馍”传递人间大爱" target="_blank">非遗传承人诚信经营25年 “顿岗油馍”传递人间大爱
+                                </a><span class="date">11月8日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="怀柔成立首家非遗宣传展示基地，上新实践大课堂、非遗公开课"
+                                    target="_blank">怀柔成立首家非遗宣传展示基地，上新实践大课堂、非遗公开课</a><span class="date">11月1日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="为非遗传承发展贡献青春力量" target="_blank">为非遗传承发展贡献青春力量</a><span
+                                    class="date">11月1日</span>
+                            </li>
+                            <li class="bottomGap">
+                                <a href="#" title="《正好遇见你》：描绘非遗传承的多彩画卷" target="_blank">《正好遇见你》：描绘非遗传承的多彩画卷</a><span
+                                    class="date">10月28日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="非遗传承保护：从“养在深闺人未识”到“飞入寻常百姓家”吗"
+                                    target="_blank">非遗传承保护：从“养在深闺人未识”到“飞入寻常百姓家”吗</a><span class="date">10月28日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="非遗传承需要多管齐下" target="_blank">非遗传承需要多管齐下</a><span
+                                    class="date">10月28日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="让非遗绽放更加迷人的光彩（人民时评）" target="_blank">让非遗绽放更加迷人的光彩（人民时评）</a><span
+                                    class="date">10月26日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="为非遗传承发展贡献青春力量_新闻频道_央视网"
+                                    target="_blank">为非遗传承发展贡献青春力量_新闻频道_央视网</a><span class="date">10月25日</span>
+                            </li>
+                            <li class="bottomGap">
+                                <a href="#" title="直播助力非遗传承，推动传统文化创新发展-新华网"
+                                    target="_blank">直播助力非遗传承，推动传统文化创新发展-新华网</a><span class="date">10月24日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="非遗传承保护：从“养在深闺人未识”到“飞入寻常百姓家”"
+                                    target="_blank">非遗传承保护：从“养在深闺人未识”到“飞入寻常百姓家”</a><span class="date">10月15日</span>
+                            </li>
+                            <li class="bottomGap">
+                                <a href="#" title="困难重重，非遗传承该如何破局？" target="_blank">困难重重，非遗传承该如何破局？</a><span
+                                    class="date">10月14日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="文旅融合 与时俱进
+                                非遗文化在传承中开拓市场" target="_blank">文旅融合 与时俱进
+                                    非遗文化在传承中开拓市场</a><span class="date">10月14日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="刺绣非遗传承人李金凤：
+                                一针一线绣出无限美好" target="_blank">刺绣非遗传承人李金凤：
+                                    一针一线绣出无限美好</a><span class="date">10月14日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="广西六堡茶非遗传承人的“南洋梦" target="_blank">广西六堡茶非遗传承人的“南洋梦</a><span
+                                    class="date">10月14日</span>
+                            </li>
+                            <li>
+                                <a href="#" title="学习传统技艺、探索跨界发展，羌绣非遗传承人张居悦"
+                                    target="_blank">学习传统技艺、探索跨界发展，羌绣非遗传承人张居悦</a><span class="date">10月12日</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cord2  d-none d-xl-block">
+                        <div class="card text-info bg-info" style="width: 730px;">
+                            <div class="row">
+                                <div class="col-6"><img class="card-img" src="./img/feiyi.jpg" style="width: 860px;">
+                                </div>
+                                <div class="col-6 text-warning">
+                                    <h2 class="card-title">什么是非遗？</h2>
+                                    <p class=" card-text">
+                                        非物质文化遗产（Intangible Cultural
+                                        Heritage），是指各族人民世代相传，并视为其文化遗产组成部分的各种传统文化表现形式，以及与传统文化表现形式相关的实物和场所。 [42]
+                                        非物质文化遗产是一个国家和民族历史文化成就的重要标志，是优秀传统文化的重要组成部分。 [47] “非物质文化遗产”与“物质文化遗产”相对，合称“文化遗产”
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--下面开始 卡片组合：-->
+                        <div class="card-group">
+                            <!---------------------------------------------------------------->
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/二十四节气.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4>二十四节气</h4>
+
+                                </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/中国篆刻.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4>中国篆刻</h4>
+
+
+                                </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/中国雕版印刷技艺.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4>中国雕版印刷技艺</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--下面开始 卡片组合：-->
+                        <div class="card-group">
+                            <!---------------------------------------------------------------->
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/宣纸传统制作技艺.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4>宣纸传统制作技艺</h4>
+                                </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/中国活字印刷术.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4> 中国活字印刷术</h4>
+
+                                </div>
+                            </div>
+                            <!---------------------------------------------------------------->
+
+                            <div class="card w-25 text-center">
+                                <div class="card-body">
+                                    <img src="./img/中医针灸.jpg" class="card-img">
+                                </div>
+                                <div class="card-footer">
+                                    <h4> 中医针灸</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container table-responsive mt-lg-5" id="paihang">
+                    </div>
+                </div>
+
+                <div class="container " style="margin-top: 100px7;">
+                    <ul class="list-unstyled">
+                        <h1 style="margin-top: 50px;">为什么保护非遗</h1>
+                        <li class="media mt-3" id="fangpian">
+
+                            <div class="media-body" style="margin-top:12px ;">
+
+                                <h5 class="mt-0">
+                                    非物质文化遗产是宝贵的文化信息资源
+                                </h5>
+                                <p>
+                                    非物质文化遗产是宝贵的文化信息资源，具有重要价值，是历史的真实见证。非物质文化遗产的保护和利用，对落实科学发展观，实现经济、文化可持续发展，具有意义重大。在全球化趋势日益加强、现代化进程日益加快的今天，非物质文化遗产的生存状况受到较大冲击，因此加强我国非物质文化遗产的保护已成为当务之急。
+                                </p>
+                            </div>
+                        </li>
+
+                        <h1 style="margin-bottom: -50px;margin-top: 50px;">怎样保护非遗</h1>
+                        <li class="media mt-3" style="padding-top: 50px;" id="falvfagui">
+                            <!-- <img src="./img/捕获2.PNG" alt="" class="align-self-lg-start mt-3" width="350"> -->
+                            <div class="media-body" style="margin-top:12px ;">
+
+                                <h5 class="mt-0">
+                                    保护为主、抢救第一
+                                </h5>
+                                <p>
+
+                                    保护为主、抢救第一、合理利用、传承发展”的原则，普及、提高全民保护非遗的意识，提高非遗的社会认知度，形成合力；同时，适度开发，适当创新，吸引年轻观众从业和欣赏；政府从资金、人才等各方面倾斜，给予保障，从而推动非物质文化遗产的延续和发展
+
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="meishi" role="tabpanel" aria-labelledby="meishi-tab">
+            <div class="meishi">
+                <div class="jumbotron" style=" background-color: #37363637;">
+                    <h1>中华美食</h1>
+                    <p>中国烹饪，中国文化的重要组成部分之一。</p>
+                </div>
+            </div>
+
+            <!-- <div class="all-title-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>ABOUT US</h2>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">ABOUT US</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner-frame"> <img class="img-fluid" src="./img/zhms.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="noo-sh-title-top">中华<span>美食</span></h2>
+                        <p style="width: 500px;">
+                            中国菜是一种博大精深的烹饪文化，它既蕴含着中国历史和地域文化的传承，又彰显着中华文化的独特魅力。在中国的历史长河中，中华文化不仅承载了中国几千年的历史文化底蕴，还代表了中国人民的智慧和情感。中国菜是中国文化的重要组成部分，也是中国文化传播的重要载体。
+
+                            中国菜的历史可以追溯到古代，早在五千年前的仰韶文化时期，中国人就已经开始了食品加工和烹饪的实践。中国菜最早起源于黄河流域，由于各地自然环境和物产资源的差异，中国菜形成了各具特色的地域烹饪文化。比如，四川菜以辣味和麻味为特色，湖南菜以酸辣味和辣味为主，广东菜则以清淡为主，而北京菜则以烤、炖、煮为主要烹饪方式。
+
+                            中国菜的传统烹饪方法非常独特，它注重用料、注重烹饪过程和技巧，并以食材本身的原味和营养价值为核心。比如，中国菜的烹饪方法包括炒、煮、炖、烧、蒸、炸等多种方式，而在烹饪时，注重火候、油温、酱料等方面的掌控，从而让食物更加美味可口。此外，中国菜也注重刀工和摆盘，精致的刀工和巧妙的摆盘不仅能够提升菜肴的美感，还能够彰显烹饪者的技艺和文化素养。
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container ">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">面板标题</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="card img-fluid" style="width:500px">
+                                    <img class="card-img-top" src="./img/meshi.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">八大菜系</h4>
+                                        <p class="card-text" style="font-weight: 800;">
+                                            素有民以食为天的中国自古就带着一股烹饪的香气，饮食在中华文化中的地位不同凡响的。不管是天上飞的还是地上跑的都在饮食中展现，而一道道菜名带来非比寻常的意义，有的是典故，有的是历史人物，而从古到今的八大菜系成为我国饮食文化的中流砥柱。
+                                        </p>
+                                        <span class="spinner-grow spinner-grow-sm"></span>
+                                        <a href="./html/美食.html" class="btn btn-primary">了解更多>>></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-fluid" style=" width: 100%; height: 100px;">
+
+
+                <!-- 轮播 -->
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner" style="height: 500px; margin-top: 200px;">
+                        <div class="carousel-item active">
+                            <img decoding="async" style="  width: 120%;" src="./img/m1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img decoding="async" style="  width: 120%;" src="./img/m2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img decoding="async" style="  width: 120%;" src="./img/m3.jpg">
+                        </div>
+                    </div>
+
+                    <!-- 左右切换按钮 -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev" style="margin-top: 200px;">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" style="margin-top: 200px;" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $('.nav-link').click(function () {
+            var tab_id = $(this).attr('href');
+            $('.tab-pane').removeClass('show active');
+            $(tab_id).addClass('show active');
+        });
+        $("[data-toggle='popover']").popover();
+    });
+
+
+
+</script>
+
+</html>

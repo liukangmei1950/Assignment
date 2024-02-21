@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    margin-top: 100px;
+    width: 100%;
+    height: 390px;
+    background: url(../images/keyan.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0 77px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img p {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.img ul {
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+
+.img ul li {
+    float: left;
+    width: 100px;
+}
+
+.img ul li a {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 20px;
+}
+
+.chengguo {
+    width: 100%;
+    height: 605px;
+    position: relative;
+    background-color: rgb(187, 23, 23);
+}
+
+.chengguo img {
+    height: 500px;
+    position: absolute;
+    right: 0px;
+}
+
+.chengguo .box1 {
+    width: 75%;
+    height: 606px;
+    background-color: rgb(217, 221, 224);
+    position: relative;
+}
+
+.chengguo .box1 .box1_1 {
+    width: 60%;
+    height: 550px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+
+}
+
+
+
+.box1 .box1_1 .box1_1_1 {
+    width: 100%;
+    height: 275px;
+
+}
+
+.box1 .box1_1 .box1_1_1 .box1_1_1_1 {
+    width: 50%;
+    height: 275px;
+    float: left;
+    /* background-color: white; */
+    background: url(../images/chengguo1.png) no-repeat;
+    background-size: 120%;
+    background-position: 0 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.box1 .box1_1 .box1_1_1 .box1_1_1_2 p:nth-child(1) {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.box1 .box1_1 .box1_1_1 .box1_1_1_2 p:nth-child(2) {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.box1 .box1_1 .box1_1_1 .box1_1_1_2 p:nth-child(3) {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.chengguo .box1 .box1_1_1:hover .box1_1_1_1 {
+    background-size: 150%;
+    transition: all 1s;
+}
+
+.box1 .box1_1 .box1_1_1 .box1_1_1_2 {
+    width: 50%;
+    height: 275px;
+    float: left;
+    background-color: white;
+}
+
+/* 成果2 */
+
+.box1 .box1_1 .box2_1_1 {
+    width: 100%;
+    height: 275px;
+}
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_1 {
+    width: 50%;
+    height: 275px;
+    float: left;
+    background: url(../images/c1.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0 0px;
+    overflow: hidden;
+}
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_2 p:nth-child(1) {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_2 p:nth-child(2) {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_2 p:nth-child(3) {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_2 {
+    width: 50%;
+    height: 275px;
+    float: left;
+    background-color: rgb(217, 221, 224);
+    position: relative;
+}
+
+.box1 .box1_1 .box2_1_1 .box2_1_1_2 .jiantou {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(217, 221, 224);
+    position: absolute;
+    top: 135px;
+    right: -15px;
+    border-width: 5px 5px 0 0;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.box1 .box1_2 {
+    width: 353px;
+    height: 276px;
+
+    background: url(../images/chengguo2.png) no-repeat;
+    background-color: white;
+    position: absolute;
+    top: 329px;
+    left: 786px;
+    background-size: 180%;
+    background-position: 30px 40px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.box_2 {
+    width: 380px;
+    height: 276px;
+    background-color: rgb(217, 221, 224);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box_2 .box_2_1 {
+    width: 85%;
+    height: 276px;
+    background-color: rgb(187, 23, 23);
+    position: relative;
+}
+
+.box_2 .box_2_1 p:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.box_2 .box_2_1 p:nth-child(3) {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.box_2 .box_2_1 p:nth-child(4) {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.box_2 .box_2_1 .jiantou {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(187, 23, 23);
+    position: absolute;
+    top: -15px;
+    right: 140px;
+    border-width: 5px 5px 0 0;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+
+.box_3 {
+    width: 323px;
+    height: 329px;
+    position: absolute;
+    top: 0px;
+    right: 57px;
+    background: url(../images/chengguo3.png) no-repeat;
+    background-color: white;
+    background-size: 100%;
+    background-position: 0 73px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+/* 机构 */
+.jigou {
+    width: 93%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.jigou .yanjiu {
+    width: 47%;
+    height: 125px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #ccc;
+}
+
+.jigou .yanjiu img {
+    position: absolute;
+    top: 15px;
+    left: 75px;
+}
+
+.jigou .yanjiu #p1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.jigou .yanjiu #p2 {
+    position: absolute;
+    top: 55px;
+    left: 525px;
+    font-size: 20px;
+
+    color: rgb(148, 13, 13);
+}
+
+.jigou .yanjiu .yuan1 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px dashed brown;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+
+}
+
+.jigou .yanjiu .yuan1 .yuan2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid brown;
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+    transition: all 1s;
+}
+
+.jigou .yanjiu .yuan1 .yuan2 .fang {
+    width: 15px;
+    height: 15px;
+    border: 2px solid brown;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    border-right: none;
+    border-top: none;
+    transition: all 1s;
+}
+
+.jigou .yanjiu .xia1 {
+    width: 100%;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    transition: all 1s;
+}
+
+.jigou .yanjiu .xia2 {
+    width: 0%;
+    height: 10px;
+    background-color: rgb(220, 107, 107);
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    transition: all 1s;
+}
+
+
+
+
+/* 学术 */
+
+.jigou .xueshu {
+    width: 47%;
+    height: 125px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #ccc;
+}
+
+.jigou .xueshu img {
+    position: absolute;
+    top: 15px;
+    left: 75px;
+}
+
+.jigou .xueshu #p1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.jigou .xueshu #p2 {
+    position: absolute;
+    top: 55px;
+    left: 525px;
+    font-size: 20px;
+
+    color: rgb(148, 13, 13);
+}
+
+.jigou .xueshu .yuan1 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px dashed brown;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+
+}
+
+.jigou .xueshu .yuan1 .yuan2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid brown;
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+    transition: all 1s;
+}
+
+.jigou .xueshu .yuan1 .yuan2 .fang {
+    width: 15px;
+    height: 15px;
+    border: 2px solid brown;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    border-right: none;
+    border-top: none;
+    transition: all 1s;
+}
+
+.jigou .xueshu .xia1 {
+    width: 100%;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    transition: all 1s;
+}
+
+.jigou .xueshu .xia2 {
+    width: 0%;
+    height: 10px;
+    background-color: rgb(220, 107, 107);
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    transition: all 1s;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 114, 236);
+    position: relative;
+    position: absolute;
+    top: 1330px;
+    z-index: -1;
+}

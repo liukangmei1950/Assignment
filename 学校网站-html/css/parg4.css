@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    /* display: flex; */
+    /*子元素设为灵活的盒子容器*/
+    justify-content: center;
+    /* 在弹性盒对象的 <div> 元素中的各项周围留有空白 */
+    align-items: center;
+    /* 居中对齐弹性盒的各项 <div> 元素： */
+    height: 100vh;
+    /* 视窗高度，1vh=视窗高度的1% 。 */
+    /* background-color: rgb(243, 230, 241); */
+}
+
+.img {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background: url(../images/banner2.jpg);
+    background-position: -100px -100px;
+    background-attachment: fixed;
+}
+
+.shell {
+    width: 70%;
+    height: 425px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transform: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 10px solid #fff;
+    background-color: #fff;
+    position: relative;
+    transition: all 1.5s;
+}
+
+
+.box>img {
+    width: 200%;
+    height: 85%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+.box>span {
+    display: inline-block;
+    width: 50px;
+    font: 200 25px '优设标题黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box .box2 {
+    width: 100px;
+    height: 450px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    transition: all 1s;
+
+}
+
+.box .box2 p:nth-child(1) {
+    width: 20px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 25px;
+    margin-right: 55px;
+    margin-top: 50px;
+}
+
+.box .box2 p:nth-child(2) {
+    width: 70px;
+    margin: 0 auto;
+
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    color: red;
+}
+
+.box:hover .box2 {
+    background-color: rgba(228, 222, 235, 0.381);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 1.5s;
+}
+
+/* .box:nth-child(5) span {
+    display: inline-block;
+    width: 50px;
+    font: 200 25px '优设标题黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+} */
+
+.box:hover {
+    transition: all 1.5s;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* .box2 {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+} */
+
+/* .box p {
+    font-size: 30px;
+    font-weight: 800;
+    color: antiquewhite;
+    margin-bottom: 20px;
+
+} */
+
+/* .box h1 {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    right: -14px;
+    word-wrap: break-word;
+    display: none;
+} */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 114, 236);
+    position: relative;
+    position: absolute;
+    top: 1100px;
+    z-index: -1;
+}
